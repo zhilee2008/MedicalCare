@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/GridViewcontainertitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/home_btn_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="项目列表"
+        android:textColor="@color/colorGray"
+        android:textSize="24sp" />
+<LinearLayout
+    android:id="@+id/GridViewcontainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <GridView 
+    android:id="@+id/GridView"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:numColumns="auto_fit"
+    android:horizontalSpacing="10dp"
+    android:verticalSpacing="10dp"
+    android:columnWidth="90dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"></GridView></LinearLayout>
+</LinearLayout>
+
