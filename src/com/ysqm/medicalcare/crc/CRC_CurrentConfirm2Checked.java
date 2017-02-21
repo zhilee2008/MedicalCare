@@ -83,11 +83,11 @@ public class CRC_CurrentConfirm2Checked extends Fragment {
 		view.findViewById(R.id.crcconfirmedlistitem).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
-                new AlertDialog.Builder(CRC_CurrentConfirm2Checked.this.getActivity()).setTitle("提示")//设置对话框标题
-                        .setMessage("确认完成本次检查?")//设置显放示的内容
-                        .setPositiveButton("确定", new DialogInterface.OnClickListener() {//添加确定按钮
+                new AlertDialog.Builder(CRC_CurrentConfirm2Checked.this.getActivity()).setTitle("提示")
+                        .setMessage("确认完成本次检查?")
+                        .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                             @Override
-                            public void onClick(DialogInterface dialog, int which) {//确定按钮的响应事件
+                            public void onClick(DialogInterface dialog, int which) {
                                 // TODO Auto-generated method stub
                                 Toast.makeText(CRC_CurrentConfirm2Checked.this.getActivity(), "确认成功", 5).show();
                                 Map<String, String> mapParam = new HashMap<String, String>();
