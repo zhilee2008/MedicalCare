@@ -90,7 +90,6 @@ public class CRC_CurrentConfirm2Checked extends Fragment {
                             public void onClick(DialogInterface dialog, int which) {//确定按钮的响应事件
                                 // TODO Auto-generated method stub
                                 Toast.makeText(CRC_CurrentConfirm2Checked.this.getActivity(), "确认成功", 5).show();
-                                //Toast.makeText(PayQuestionList.this, "积分扣除不成功,暂时无法查看答案", 5).show();
                                 Map<String, String> mapParam = new HashMap<String, String>();
 //                         		mapParam.put("userId", "crc1");
 //                         		mapParam.put("password", "passw0rd");
