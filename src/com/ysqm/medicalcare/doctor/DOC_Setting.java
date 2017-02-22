@@ -31,14 +31,14 @@ public class DOC_Setting extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		sp = PreferenceManager.getDefaultSharedPreferences(this.getActivity());
-		View v = inflater.inflate(R.layout.crc_activity_setting, container, false);
-		LinearLayout cv = (LinearLayout)v.findViewById(R.id.crccreate);
-        cv.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				FragmentActivity4.changeFragment(new DOC_ADDPatient());
-			}
-		});
+		View v = inflater.inflate(R.layout.doc_activity_setting, container, false);
+//		LinearLayout cv = (LinearLayout)v.findViewById(R.id.crccreate);
+//        cv.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//				FragmentActivity4.changeFragment(new DOC_ADDPatient());
+//			}
+//		});
 		LinearLayout tv = (LinearLayout)v.findViewById(R.id.crcchangepwd);
         tv.setOnClickListener(new View.OnClickListener() {
 			@Override
