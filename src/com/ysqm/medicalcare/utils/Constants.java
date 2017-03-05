@@ -94,7 +94,7 @@ public class Constants {
 	
 	public static String ADDPATIENT = "patient";
 	
-	
+	public static String CHECKITEM="checkitem";
 	
 	
 

@@ -73,10 +73,19 @@ public class ChangePWD extends Fragment {
 				//{"oldPassword":"passw0rd","newPassword":"passw1rd"}
 				String oldPassword="";
 				String newPassword="";
+				
 				EditText op = (EditText)view.findViewById(R.id.oldpwd);
 				EditText np = (EditText)view.findViewById(R.id.newpwd);
+				
 				oldPassword = op.getText().toString().trim();
 				newPassword	= np.getText().toString().trim();	
+				EditText rnp = (EditText)view.findViewById(R.id.renewpwd);
+				String renewPassword="";
+				renewPassword	= rnp.getText().toString().trim();	
+				if(!newPassword.equals(renewPassword)){
+					Toast.makeText(ChangePWD.this.getActivity(), "两次输入新密码不相同，请重新输入", 5).show();
+					return;
+				}
 				Map<String, String> mapParam = new HashMap<String, String>();
          		mapParam.put("newPassword", newPassword);
                 mapParam.put("oldPassword", oldPassword);

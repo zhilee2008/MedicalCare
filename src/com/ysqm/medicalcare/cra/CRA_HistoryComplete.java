@@ -89,13 +89,9 @@ public class CRA_HistoryComplete extends Fragment {
         @Override
         public void handleMessage(Message msg) {
             // TODO Auto-generated method stub
-//        	Intent intent = new Intent(); 
-//        	Bundle bundle = new Bundle();
-//			intent.setClass(LoginActivity.this,MainTabLayout.class);
-//			bundle.putSerializable("role", msg.getData().getString("role"));
-//			intent.putExtras(bundle);
-//			LoginActivity.this.startActivity(intent);
-//			LoginActivity.this.finish();
+        	TextView planname = (TextView) view.findViewById(R.id.planname);
+			planname.setText(msg.getData().getString("planname"));
+			
         	TextView pnameV=(TextView)view.findViewById(R.id.crc_patient);
         	pnameV.setText(msg.getData().getString("crc_patient"));
         	TextView pidV=(TextView)view.findViewById(R.id.crc_patient);
@@ -169,8 +165,7 @@ public class CRA_HistoryComplete extends Fragment {
             // TODO Auto-generated method stub
             Message msg = new Message();
       		HttpConnections httpConnections = new HttpConnections();
-     		JSONObject obj  =httpConnections.httpConnectionGet(Constants.CHECKUP+Constants.STATE+Constants.CRC_COMPLETE_STATE, token);
-     		
+     		JSONObject obj  =httpConnections.httpConnectionGet(Constants.CHECKUP+Constants.CHECKUPID+checkupId, token);
      		
       	    try {
       	    	
@@ -179,6 +174,10 @@ public class CRA_HistoryComplete extends Fragment {
     				Bundle bundle = new Bundle();
 //    				bundle.putString("crc_orderid", CurrentOrderObj.getString("checkupId"));
 //    				bundle.putString("role", obj.getString("role"));
+    				bundle.putString(
+							"planname",
+							CurrentOrderObj.getJSONObject("checkupDefine")
+									.get("name").toString());
     				bundle.putString("crc_patient", CurrentOrderObj.getJSONObject("patient").getString("name"));
     				bundle.putString("crc_patientid", CurrentOrderObj.getString("patientId"));
     				bundle.putString("crc_ordertimetext", CurrentOrderObj.getString("checkupPlanDate"));
@@ -187,12 +186,17 @@ public class CRA_HistoryComplete extends Fragment {
     				bundle.putString("crc_ordercontact", CurrentOrderObj.getJSONObject("crc").getString("name"));
     				bundle.putString("crc_orderphone", CurrentOrderObj.getJSONObject("crc").getString("phone1"));
     				bundle.putString("crc_ordercomment", CurrentOrderObj.getString("comments"));
+    				//http://103.248.103.12:8080/track/service/common/checkitem?checkupId=326
+    				
     				checkitem=CurrentOrderObj.getJSONObject("checkupDefine").getJSONArray("checkItems");
 //    				crc_ordermention
 //    				crc_ordercomment
     				msg.setData(bundle);
       	    	}
-      	    	
+      	    	JSONObject objcheckitem  =httpConnections.httpConnectionGet(Constants.CHECKITEM+Constants.CHECKUPID+checkupId, token);
+      	    	if(objcheckitem.getJSONArray("data").length()>0){
+      	    		checkitem = objcheckitem.getJSONArray("data");
+      	    	}
       	    	
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block

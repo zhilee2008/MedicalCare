@@ -28,6 +28,7 @@ import com.ysqm.medicalcare.FragmentActivity2;
 import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.FragmentActivity4;
 import com.ysqm.medicalcare.R;
+import com.ysqm.medicalcare.patient.ChangePWD;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
 
@@ -76,6 +77,13 @@ public class CRC_ChangePWD extends Fragment {
 				EditText np = (EditText)view.findViewById(R.id.newpwd);
 				oldPassword = op.getText().toString().trim();
 				newPassword	= np.getText().toString().trim();	
+				EditText rnp = (EditText)view.findViewById(R.id.renewpwd);
+				String renewPassword="";
+				renewPassword	= rnp.getText().toString().trim();	
+				if(!newPassword.equals(renewPassword)){
+					Toast.makeText(CRC_ChangePWD.this.getActivity(), "两次输入新密码不相同，请重新输入", 5).show();
+					return;
+				}
 				Map<String, String> mapParam = new HashMap<String, String>();
          		mapParam.put("newPassword", newPassword);
                 mapParam.put("oldPassword", oldPassword);

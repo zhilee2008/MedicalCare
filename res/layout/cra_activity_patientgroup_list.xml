@@ -54,7 +54,7 @@
 			    android:numColumns="auto_fit"
 			    android:horizontalSpacing="10dp"
 			    android:verticalSpacing="10dp"
-			    android:columnWidth="90dp"
+			    android:columnWidth="40dp"
 			    android:stretchMode="columnWidth"
 			    android:gravity="center"></GridView>
 
@@ -89,7 +89,7 @@
 			    android:numColumns="auto_fit"
 			    android:horizontalSpacing="10dp"
 			    android:verticalSpacing="10dp"
-			    android:columnWidth="90dp"
+			    android:columnWidth="40dp"
 			    android:stretchMode="columnWidth"
 			    android:gravity="center"></GridView>
 
@@ -129,7 +129,7 @@
 			    android:numColumns="auto_fit"
 			    android:horizontalSpacing="10dp"
 			    android:verticalSpacing="10dp"
-			    android:columnWidth="90dp"
+			    android:columnWidth="40dp"
 			    android:stretchMode="columnWidth"
 			    android:gravity="center"></GridView>
 
@@ -162,7 +162,7 @@
 			    android:numColumns="auto_fit"
 			    android:horizontalSpacing="10dp"
 			    android:verticalSpacing="10dp"
-			    android:columnWidth="90dp"
+			    android:columnWidth="40dp"
 			    android:stretchMode="columnWidth"
 			    android:gravity="center"></GridView>
 
@@ -195,7 +195,7 @@
 			    android:numColumns="auto_fit"
 			    android:horizontalSpacing="10dp"
 			    android:verticalSpacing="10dp"
-			    android:columnWidth="90dp"
+			    android:columnWidth="40dp"
 			    android:stretchMode="columnWidth"
 			    android:gravity="center"></GridView>
 

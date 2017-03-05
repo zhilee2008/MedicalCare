@@ -19,16 +19,7 @@ import com.ysqm.medicalcare.R;
 
 public class ProjectInfo extends Fragment {
 	private String projectId;
-//	public String getProjectId() {
-//		return projectId;
-//	}
-//	public void setProjectId(String projectId) {
-//		this.projectId = projectId;
-//	}
-//	String projectId;
-//	public ProjectInfo(String projectId){
-//		this.projectId=projectId;
-//	}
+
 	ProjectInfo(String projectId){
 		this.projectId = projectId;
 	}
@@ -77,20 +68,4 @@ public class ProjectInfo extends Fragment {
 		});
         return v;
 	}
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_order_list);
-//        LinearLayout myorderbutton = (LinearLayout) findViewById(R.id.myordbutton);
-//        myorderbutton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View arg0) {
-//                Intent intent = new Intent();
-//                intent.setClass(ProjectInfo.this,MyorderList.class);
-//                ProjectInfo.this.startActivity(intent);
-//                ProjectInfo.this.finish();
-//            }
-//        });
-//
-//    }
 }

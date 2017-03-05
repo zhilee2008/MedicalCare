@@ -175,13 +175,9 @@ public class CRC_PatientCurrentChecked2Complete extends Fragment {
         @Override
         public void handleMessage(Message msg) {
             // TODO Auto-generated method stub
-//        	Intent intent = new Intent(); 
-//        	Bundle bundle = new Bundle();
-//			intent.setClass(LoginActivity.this,MainTabLayout.class);
-//			bundle.putSerializable("role", msg.getData().getString("role"));
-//			intent.putExtras(bundle);
-//			LoginActivity.this.startActivity(intent);
-//			LoginActivity.this.finish();
+        	TextView planname = (TextView) view.findViewById(R.id.planname);
+			planname.setText(msg.getData().getString("planname"));
+			
         	TextView pnameV=(TextView)view.findViewById(R.id.crc_patient);
         	pnameV.setText(msg.getData().getString("crc_patient"));
         	TextView pidV=(TextView)view.findViewById(R.id.crc_patient);
@@ -277,9 +273,10 @@ public class CRC_PatientCurrentChecked2Complete extends Fragment {
       	    	
       	    	if(obj.getJSONArray("data").length()>0){
       	    		JSONObject CurrentOrderObj = obj.getJSONArray("data").getJSONObject(0);
-    				
-//    				bundle.putString("crc_orderid", CurrentOrderObj.getString("checkupId"));
-//    				bundle.putString("role", obj.getString("role"));
+      	    		bundle.putString(
+							"planname",
+							CurrentOrderObj.getJSONObject("checkupDefine")
+									.get("name").toString());
     				bundle.putString("crc_patient", CurrentOrderObj.getJSONObject("patient").getString("name"));
     				bundle.putString("crc_patientid", CurrentOrderObj.getString("patientId"));
     				bundle.putString("crc_ordertimetext", CurrentOrderObj.getString("checkupPlanDate"));

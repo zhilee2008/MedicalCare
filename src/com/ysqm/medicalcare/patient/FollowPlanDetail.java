@@ -103,6 +103,9 @@ public class FollowPlanDetail extends Fragment {
         		lyc.addView(notextView);
         		
         	}else{
+        		TextView planname = (TextView) view.findViewById(R.id.planname);
+				planname.setText(msg.getData().getString("planname"));
+				
 	        	TextView timeV=(TextView)view.findViewById(R.id.p_ordertimetext);
 	        	timeV.setText(msg.getData().getString("p_ordertimetext"));
 	        	TextView addV=(TextView)view.findViewById(R.id.p_orderaddress);
@@ -180,6 +183,10 @@ public class FollowPlanDetail extends Fragment {
       	    	if(obj.getJSONArray("data").length()>0){
 	      	    	JSONObject CurrentOrderObj = obj.getJSONArray("data").getJSONObject(0);
 					Bundle bundle = new Bundle();
+					bundle.putString(
+							"planname",
+							CurrentOrderObj.getJSONObject("checkupDefine")
+									.get("name").toString());
 	//				bundle.putString("role", obj.getString("role"));
 					bundle.putString("p_ordertimetext", CurrentOrderObj.getString("checkupPlanDate"));
 					bundle.putString("p_orderaddress", CurrentOrderObj.getJSONObject("hospital").getString("name"));

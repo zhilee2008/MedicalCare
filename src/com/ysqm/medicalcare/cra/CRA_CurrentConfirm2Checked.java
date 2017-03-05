@@ -79,62 +79,6 @@ public class CRA_CurrentConfirm2Checked extends Fragment {
 
 			}
 		});
-//		view.findViewById(R.id.crcconfirmedlistitem).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(final View v) {
-//                new AlertDialog.Builder(CRA_CurrentConfirm2Checked.this.getActivity()).setTitle("提示")//设置对话框标题
-//                        .setMessage("确认完成本次随访?")//设置显放示的内容
-//                        .setPositiveButton("确定", new DialogInterface.OnClickListener() {//添加确定按钮
-//                            @Override
-//                            public void onClick(DialogInterface dialog, int which) {//确定按钮的响应事件
-//                                // TODO Auto-generated method stub
-//                                Toast.makeText(CRA_CurrentConfirm2Checked.this.getActivity(), "确认成功", 5).show();
-//                                //Toast.makeText(PayQuestionList.this, "积分扣除不成功,暂时无法查看答案", 5).show();
-//                                Map<String, String> mapParam = new HashMap<String, String>();
-////                         		mapParam.put("userId", "crc1");
-////                         		mapParam.put("password", "passw0rd");
-//                                mapParam.put("checkupId", CRA_CurrentConfirm2Checked.this.checkupId);
-//                                //mapParam.put("checkupId", "1");
-//                                //ordertimetext.getText().toString()
-//                                TextView timeV=(TextView)view.findViewById(R.id.crc_ordertimetext);
-//                         		mapParam.put("checkupDate", timeV.getText().toString());
-//                         		TextView commentV=(TextView)view.findViewById(R.id.crc_ordercomment);
-//                         		mapParam.put("comments", commentV.getText().toString());
-//                                HttpConnections httpConnections = new HttpConnections();
-//                         		JSONObject obj  = httpConnections.httpConnectionPut(Constants.CRC_CHECKUPCHECKED, token,mapParam);
-//                         		
-//                         		try {
-//									if(Integer.parseInt(obj.get("statuCode").toString())<Constants.SUCCESSCODE){
-//										LinearLayout lyc = (LinearLayout)view.findViewById(R.id.crc_currentconfirmcontainer);
-//										lyc.removeAllViews();
-//										TextView notextView = new TextView(view.getContext());
-//										notextView.setText( "暂无已预约项目" );
-//										lyc.addView(notextView);
-//									}
-//								} catch (JSONException e) {
-//									// TODO Auto-generated catch block
-//									e.printStackTrace();
-//								}
-//                         		
-//                            }
-//
-//                        }).setNegativeButton("取消", new DialogInterface.OnClickListener() {//添加返回按钮
-//                    @Override
-//                    public void onClick(DialogInterface dialog, int which) {//响应事件
-//                        // TODO Auto-generated method stub
-//                        // Log.i("alertdialog"," 请保存数据！");
-//                    }
-//                }).show();//在按键响应事件中显示此对话框
-//            }
-//
-//        });
-//		LinearLayout tv = (LinearLayout)v.findViewById(R.id.crccurrentordbutton);
-//        tv.setOnClickListener(new View.OnClickListener() {
-//			@Override
-//			public void onClick(View v) {
-//				FragmentActivity0.changeFragment(new CRC_CurrentOrderedList());
-//			}
-//		});
         return view;
 	}
 
@@ -142,13 +86,9 @@ public class CRA_CurrentConfirm2Checked extends Fragment {
         @Override
         public void handleMessage(Message msg) {
             // TODO Auto-generated method stub
-//        	Intent intent = new Intent(); 
-//        	Bundle bundle = new Bundle();
-//			intent.setClass(LoginActivity.this,MainTabLayout.class);
-//			bundle.putSerializable("role", msg.getData().getString("role"));
-//			intent.putExtras(bundle);
-//			LoginActivity.this.startActivity(intent);
-//			LoginActivity.this.finish();
+        	TextView planname = (TextView) view.findViewById(R.id.planname);
+			planname.setText(msg.getData().getString("planname"));
+			
         	TextView pnameV=(TextView)view.findViewById(R.id.crc_patient);
         	pnameV.setText(msg.getData().getString("crc_patient"));
         	TextView pidV=(TextView)view.findViewById(R.id.crc_patient);
@@ -227,8 +167,10 @@ public class CRA_CurrentConfirm2Checked extends Fragment {
       	    	if(obj.getJSONArray("data").length()>0){
       	    		JSONObject CurrentOrderObj = obj.getJSONArray("data").getJSONObject(0);
     				Bundle bundle = new Bundle();
-//    				bundle.putString("crc_orderid", CurrentOrderObj.getString("checkupId"));
-//    				bundle.putString("role", obj.getString("role"));
+    				bundle.putString(
+							"planname",
+							CurrentOrderObj.getJSONObject("checkupDefine")
+									.get("name").toString());
     				bundle.putString("crc_patient", CurrentOrderObj.getJSONObject("patient").getString("name"));
     				bundle.putString("crc_patientid", CurrentOrderObj.getString("patientId"));
     				bundle.putString("crc_ordertimetext", CurrentOrderObj.getString("checkupPlanDate"));

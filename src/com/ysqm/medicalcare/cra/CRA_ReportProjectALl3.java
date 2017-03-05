@@ -89,21 +89,6 @@ public class CRA_ReportProjectALl3 extends Fragment {
         return v;
 	}
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_order_list);
-//        LinearLayout currentorderbutton = (LinearLayout) findViewById(R.id.currentorderbutton);
-//        currentorderbutton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View arg0) {
-//                Intent intent = new Intent();
-//                intent.setClass(OrderList.this, CurrentOrder.class);
-//                OrderList.this.startActivity(intent);
-//                OrderList.this.finish();
-//            }
-//        });
-//    }
 
 }
 
