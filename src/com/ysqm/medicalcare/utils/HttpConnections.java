@@ -1,6 +1,7 @@
 package com.ysqm.medicalcare.utils;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
@@ -351,6 +352,36 @@ public class HttpConnections {
 //			}else{
 //				Toast.makeText(getApplicationContext(), "请输入邮箱",Toast.LENGTH_SHORT).show();  
 //			}
+			
+		} catch (ClientProtocolException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return obj;
+	}
+	
+	public static JSONObject httpConnectionGetServer(){
+		StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+		.detectDiskReads().detectDiskWrites().detectNetwork() // or  .detectAll()  for all detectable problems
+		.penaltyLog().build());
+
+		StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
+				.detectLeakedSqlLiteObjects() // .detectLeakedClosableObjects()
+				.penaltyLog().penaltyDeath().build());
+		JSONObject obj = new JSONObject();
+		try {
+			HttpClient httpclient = new DefaultHttpClient();
+			HttpGet httpget = new HttpGet(Constants.WSDL_SERVER_LIST);
+			HttpResponse response;
+			response = httpclient.execute(httpget);
+			// 检验状态码，如果成功接收数据
+			int code = response.getStatusLine().getStatusCode();
+			//if (code == Constants.SUCCCODE) {
+			String rev = EntityUtils.toString(response.getEntity(),"UTF-8");// 返回json格式：
+			obj = new JSONObject(rev);
 			
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();

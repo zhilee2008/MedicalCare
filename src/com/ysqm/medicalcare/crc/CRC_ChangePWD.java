@@ -2,6 +2,8 @@ package com.ysqm.medicalcare.crc;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -37,6 +39,7 @@ public class CRC_ChangePWD extends Fragment {
 //	public CRC_Setting(String patientId){
 //		this.patientId=patientId;
 //	}
+	Pattern pattern = Pattern.compile("^[0-9a-zA-Z]+$");
 	SharedPreferences sp;
 	String token;
 	View view;
@@ -82,6 +85,11 @@ public class CRC_ChangePWD extends Fragment {
 				renewPassword	= rnp.getText().toString().trim();	
 				if(!newPassword.equals(renewPassword)){
 					Toast.makeText(CRC_ChangePWD.this.getActivity(), "两次输入新密码不相同，请重新输入", 5).show();
+					return;
+				}
+				Matcher matcher  = pattern.matcher(newPassword);
+				if(!matcher.matches()){
+					Toast.makeText(CRC_ChangePWD.this.getActivity(), "新密码输入字符只能为字母A-Z，a-z，数字0-9中的组合，且区分大小写，请重新输入", 5).show();
 					return;
 				}
 				Map<String, String> mapParam = new HashMap<String, String>();

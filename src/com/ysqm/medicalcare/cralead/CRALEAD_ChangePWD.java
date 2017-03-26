@@ -2,6 +2,8 @@ package com.ysqm.medicalcare.cralead;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -28,7 +30,9 @@ import com.ysqm.medicalcare.FragmentActivity2;
 import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.FragmentActivity4;
 import com.ysqm.medicalcare.R;
+import com.ysqm.medicalcare.cra.CRA_ChangePWD;
 import com.ysqm.medicalcare.crc.CRC_PatientOrderList;
+import com.ysqm.medicalcare.patient.ChangePWD;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
 
@@ -37,6 +41,7 @@ public class CRALEAD_ChangePWD extends Fragment {
 //	public CRC_Setting(String patientId){
 //		this.patientId=patientId;
 //	}
+	Pattern pattern = Pattern.compile("^[0-9a-zA-Z]+$");
 	SharedPreferences sp;
 	String token;
 	View view;
@@ -77,6 +82,19 @@ public class CRALEAD_ChangePWD extends Fragment {
 				EditText np = (EditText)view.findViewById(R.id.newpwd);
 				oldPassword = op.getText().toString().trim();
 				newPassword	= np.getText().toString().trim();	
+				EditText rnp = (EditText)view.findViewById(R.id.renewpwd);
+				String renewPassword="";
+				renewPassword	= rnp.getText().toString().trim();	
+				if(!newPassword.equals(renewPassword)){
+					Toast.makeText(CRALEAD_ChangePWD.this.getActivity(), "两次输入新密码不相同，请重新输入", 5).show();
+					return;
+				}
+				
+				Matcher matcher  = pattern.matcher(newPassword);
+				if(!matcher.matches()){
+					Toast.makeText(CRALEAD_ChangePWD.this.getActivity(), "新密码输入字符只能为字母A-Z，a-z，数字0-9中的组合，且区分大小写，请重新输入", 5).show();
+					return;
+				}
 				Map<String, String> mapParam = new HashMap<String, String>();
          		mapParam.put("newPassword", newPassword);
                 mapParam.put("oldPassword", oldPassword);

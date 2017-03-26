@@ -189,8 +189,8 @@ public class HistoryOrderList extends Fragment {
       	    			JSONObject OrderingObj= OrderingList.getJSONObject(i);
      	    			 Map<String, Object> map=new HashMap<String, Object>();  
 //			            map.put("image", R.drawable.patientgreen);
-     	    			map.put("title", OrderingObj.getJSONObject("patient").get("name").toString()+"_"+OrderingObj.get("patientId").toString());
-			            map.put("info", OrderingObj.get("checkupId").toString()+"_"+OrderingObj.getJSONObject("project").get("name").toString()+ ("null".equals(OrderingObj.get("checkupPlanDate").toString()) ? "":"_"+OrderingObj.get("checkupPlanDate").toString()));  
+     	    			map.put("title", OrderingObj.getJSONObject("checkupDefine").get("name").toString());
+			            map.put("info", OrderingObj.getJSONObject("project").get("name").toString()+ ("null".equals(OrderingObj.get("checkupDate").toString()) ? "":"_"+OrderingObj.get("checkupDate").toString()));  
 			           map.put("checkupId", OrderingObj.get("checkupId").toString());
 			           map.put("image", R.drawable.patientgreen);
 			           list.add(map);  

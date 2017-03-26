@@ -92,10 +92,12 @@ public class CurrentOrder extends Fragment {
         		LinearLayout lyc = (LinearLayout)view.findViewById(R.id.p_currentordercontainer);
         		lyc.removeAllViews();
         		TextView notextView = new TextView(view.getContext());
-        		notextView.setText( "暂无可预约项目" );
+        		notextView.setText( "您当前没有经研究护士确认的预约，请在下一次预约窗口期开始后尽快提交新的随访申请" );
         		lyc.addView(notextView);
         		
         	}else{
+        		TextView planname = (TextView) view.findViewById(R.id.planname);
+				planname.setText(msg.getData().getString("planname"));
 	        	TextView timeV=(TextView)view.findViewById(R.id.p_ordertimetext);
 	        	timeV.setText(msg.getData().getString("p_ordertimetext"));
 	        	TextView addV=(TextView)view.findViewById(R.id.p_orderaddress);
@@ -174,6 +176,10 @@ public class CurrentOrder extends Fragment {
 	      	    	JSONObject CurrentOrderObj = obj.getJSONArray("data").getJSONObject(0);
 					Bundle bundle = new Bundle();
 	//				bundle.putString("role", obj.getString("role"));
+					bundle.putString(
+							"planname",
+							CurrentOrderObj.getJSONObject("checkupDefine")
+									.get("name").toString());
 					bundle.putString("p_ordertimetext", CurrentOrderObj.getString("checkupPlanDate"));
 					bundle.putString("p_orderaddress", CurrentOrderObj.getJSONObject("hospital").getString("name"));
 					bundle.putString("p_orderdoctor", CurrentOrderObj.getJSONObject("doctor").getString("name"));

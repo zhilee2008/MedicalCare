@@ -22,7 +22,7 @@
             android:textColor="@color/colorGray"
             android:textSize="20sp" />
 
-        <TextView android:textColor="@color/colorGray" android:layout_marginLeft="50dip" android:text="随访计划" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textSize="24sp" />
+        <TextView android:textColor="@color/colorGray" android:layout_marginLeft="50dip" android:text="历史预约记录" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textSize="24sp" />
     </LinearLayout>
      <ListView   
         android:id="@+id/list"  

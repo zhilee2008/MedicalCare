@@ -188,7 +188,8 @@ public class FollowPlanDetail extends Fragment {
 							CurrentOrderObj.getJSONObject("checkupDefine")
 									.get("name").toString());
 	//				bundle.putString("role", obj.getString("role"));
-					bundle.putString("p_ordertimetext", CurrentOrderObj.getString("checkupPlanDate"));
+					
+					bundle.putString("p_ordertimetext", ("null".equals(CurrentOrderObj.get("recommendCheckupDate").toString()) ? "":"_"+CurrentOrderObj.get("recommendCheckupDate").toString()));
 					bundle.putString("p_orderaddress", CurrentOrderObj.getJSONObject("hospital").getString("name"));
 					bundle.putString("p_orderdoctor", CurrentOrderObj.getJSONObject("doctor").getString("name"));
 					bundle.putString("p_ordercontact", CurrentOrderObj.getJSONObject("crc").getString("name"));

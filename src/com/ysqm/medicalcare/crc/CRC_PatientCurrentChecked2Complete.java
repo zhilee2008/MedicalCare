@@ -88,8 +88,13 @@ public class CRC_PatientCurrentChecked2Complete extends Fragment {
 		view.findViewById(R.id.crcconfirmedlistitem).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
+            	String alertMessage="";
+            	if(checkitem.length()!=checkBoxs.size()){
+            		alertMessage="本次随访研究结果不完整,";
+         		}
+            	
                 new AlertDialog.Builder(CRC_PatientCurrentChecked2Complete.this.getActivity()).setTitle("提示")//设置对话框标题
-                        .setMessage("确认完成本次随访?")//设置显放示的内容
+                        .setMessage(alertMessage+"是否确认完成本次随访?")//设置显放示的内容
                         .setPositiveButton("确定", new DialogInterface.OnClickListener() {//添加确定按钮
                             @Override
                             public void onClick(DialogInterface dialog, int which) {//确定按钮的响应事件

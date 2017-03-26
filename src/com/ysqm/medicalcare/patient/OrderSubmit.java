@@ -163,9 +163,6 @@ public class OrderSubmit extends Fragment {
 														OrderSubmit.this
 																.getActivity(),
 														"预约成功", 5).show();
-												// Toast.makeText(PayQuestionList.this,
-												// "积分扣除不成功,暂时无法查看答案",
-												// 5).show();
 												Map<String, String> mapParam = new HashMap<String, String>();
 												// mapParam.put("userId",
 												// "crc1");
@@ -203,6 +200,24 @@ public class OrderSubmit extends Fragment {
 														notextView
 																.setText("暂无可预约项目");
 														lyc.addView(notextView);
+													} else {
+														if ("501"
+																.equals(obj
+																		.get("statuCode")
+																		.toString())) {
+															Toast.makeText(
+																	OrderSubmit.this
+																			.getActivity(),
+																	"预约时间不匹配请重新选择",
+																	5).show();
+															return;
+														} else {
+															Toast.makeText(
+																	OrderSubmit.this
+																			.getActivity(),
+																	"预约失败，请联系研究护士或随后再试",
+																	5).show();
+														}
 													}
 												} catch (JSONException e) {
 													// TODO Auto-generated catch

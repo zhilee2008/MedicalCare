@@ -20,6 +20,7 @@ import android.widget.LinearLayout;
 import com.ysqm.medicalcare.FragmentActivity0;
 import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.R;
+import com.ysqm.medicalcare.utils.Constants;
 
 public class CRALEAD_ReportProjectCRC extends Fragment {
 	String projectId;
@@ -72,7 +73,7 @@ public class CRALEAD_ReportProjectCRC extends Fragment {
 //        webView.loadUrl("javascript: document.body.onload=function(){window.token='"+token+"';alert(window.token);}");
         //找到Html文件，也可以用网络上的文件  
 //        webView.loadUrl("http://www.baidu.com"); 
-        webView.loadUrl("http://103.248.103.12:8080/track/report/patientStateStatistic.jsp?token="+token); 
+        webView.loadUrl(Constants.WSDL_URL_REPORT+Constants.CRALEAD_REPORTCRAMENUCRA1+"?token="+token); 
 //        webView.loadUrl("file:///android_asset/a.html");
         webView.setWebChromeClient(new WebChromeClient());
         //webView.loadUrl("javascript: window.token=\""+token+"\";");

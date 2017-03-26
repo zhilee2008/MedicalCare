@@ -24,10 +24,10 @@ import com.ysqm.medicalcare.utils.Constants;
 
 public class CRA_ReportProjectMenuHospital1 extends Fragment {
 	String projectId;
-	String hosptialId;
-	public CRA_ReportProjectMenuHospital1(String projectId,String hosptialId){
+	String hospitalId;
+	public CRA_ReportProjectMenuHospital1(String projectId,String hospitalId){
 		this.projectId=projectId;
-		this.hosptialId=hosptialId;
+		this.hospitalId=hospitalId;
 	}
 	SharedPreferences sp;
 	String token;
@@ -75,7 +75,7 @@ public class CRA_ReportProjectMenuHospital1 extends Fragment {
 //        webView.loadUrl("javascript: document.body.onload=function(){window.token='"+token+"';alert(window.token);}");
         //找到Html文件，也可以用网络上的文件  
 //        webView.loadUrl("http://www.baidu.com"); 
-        webView.loadUrl(Constants.WSDL_URL_REPORT+Constants.CRA_REPORTPROJECTMENUHOSPITAL1+"?projectId="+projectId+"&hosptialId="+hosptialId+"&token="+token);  
+        webView.loadUrl(Constants.WSDL_URL_REPORT+Constants.CRA_REPORTPROJECTMENUHOSPITAL1+"?projectId="+projectId+"&hospitalId="+hospitalId+"&token="+token);  
 //        webView.loadUrl("file:///android_asset/a.html");
         webView.setWebChromeClient(new WebChromeClient());
         //webView.loadUrl("javascript: window.token=\""+token+"\";");

@@ -5,7 +5,15 @@ import com.ysqm.medicalcare.cra.CRA_ReportProjectMenuHospital1;
 
 public class Constants {
 	
+	public static String WSDL_SERVER_LIST = "http://103.248.103.12:8888/conf/configuration.json";
 	
+//	public static String HOST="";
+//	public static String PORT="";
+//	
+//		
+//	public static String WSDL_URL_TRACK = "http://"+HOST+":"+PORT+"/track/test/";
+//	public static String WSDL_URL = "http://"+HOST+":"+PORT+"/track/service/common/";
+//	public static String WSDL_URL_REPORT = "http://"+HOST+":"+PORT+"/track/report/";
 	public static String WSDL_URL_TRACK = "http://103.248.103.12:8080/track/test/";
 	public static String WSDL_URL = "http://103.248.103.12:8080/track/service/common/";
 	public static String WSDL_URL_REPORT = "http://103.248.103.12:8080/track/report/";
@@ -59,6 +67,7 @@ public class Constants {
 	public static String CRAPROJECTCRC="filteruser?role=crc&projectId=";
 	public static String CRACRC="crc?reportManagerUserId=";
 	public static String CRALEADCRA="cra?reportManagerUserId=";
+	public static String CRALEADCRC="crc?cralead=";
 	
 	public static String CRC_ADDPATIENT="createPatientAndPlan.html";	
 	
@@ -99,11 +108,11 @@ public class Constants {
 	
 
 	
-//	public enum UserType {
-//		PATIENT, 
-//		CRC,
-//		CRA,
-//	}
+	public enum Configuration {
+		name, 
+		port,
+		host,
+	}
 	
 	
 	

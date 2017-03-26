@@ -139,7 +139,7 @@ public class CRALEAD_ReportCRC_CRCList extends Fragment {
 			//httpclient.httpConnectionGet(Constants.PLAN,token);
 			//ProjectService projectService=new ProjectService();
 			HttpConnections httpclient = new HttpConnections();
-			JSONObject obj = httpclient.httpConnectionGet(Constants.CRACRC+userId,token);
+			JSONObject obj = httpclient.httpConnectionGet(Constants.CRALEADCRC+userId,token);
 			JSONArray objArray;
 			try {
 				objArray = obj.getJSONArray("data");

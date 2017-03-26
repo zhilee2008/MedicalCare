@@ -118,7 +118,7 @@ public class MainTabLayout extends InstrumentedActivity {
 					R.drawable.tab_project_btn, R.drawable.tab_hospital_btn,
 					R.drawable.tab_patient_btn, R.drawable.tab_set_btn };
 			// Tab选项卡的文字
-			String mTextviewArray[] = { "预约", "项目", "医院", "受试者", "设置" };
+			String mTextviewArray[] = { "任务", "项目", "医院", "受试者", "设置" };
 
 			Class fragmentArray[] = { FragmentActivity0.class,
 					FragmentActivity1.class, FragmentActivity2.class,
@@ -129,7 +129,7 @@ public class MainTabLayout extends InstrumentedActivity {
 					R.drawable.tab_project_btn, R.drawable.tab_hospital_btn,
 					R.drawable.tab_patient_btn, R.drawable.tab_set_btn };
 			// Tab选项卡的文字
-			String mTextviewArray[] = { "预约", "项目", "医院", "受试者", "设置" };
+			String mTextviewArray[] = { "任务", "项目", "医院", "受试者", "设置" };
 
 			Class fragmentArray[] = { FragmentActivity0.class,
 					FragmentActivity1.class, FragmentActivity2.class,
@@ -138,7 +138,7 @@ public class MainTabLayout extends InstrumentedActivity {
 		} else if (userType.equals(this.CRA)){
 			int mImageViewArray[] = { R.drawable.tab_reserve_btn,R.drawable.tab_project_btn,R.drawable.tab_patient_btn,R.drawable.tab_report_btn, R.drawable.tab_set_btn };
 			// Tab选项卡的文字
-			String mTextviewArray[] = {"预约", "项目","受试者","报告", "设置" };
+			String mTextviewArray[] = {"任务", "项目","受试者","报告", "设置" };
 
 			Class fragmentArray[] = { FragmentActivity0.class,
 					FragmentActivity1.class,FragmentActivity2.class,FragmentActivity3.class,FragmentActivity4.class};
@@ -147,7 +147,7 @@ public class MainTabLayout extends InstrumentedActivity {
 		} else if (userType.equals(this.CRALEAD)){
 			int mImageViewArray[] = { R.drawable.tab_reserve_btn,R.drawable.tab_project_btn,R.drawable.tab_patient_btn,R.drawable.tab_report_btn, R.drawable.tab_set_btn };
 			// Tab选项卡的文字
-			String mTextviewArray[] = {"预约", "项目","受试者","报告", "设置" };
+			String mTextviewArray[] = {"任务", "项目","受试者","报告", "设置" };
 
 			Class fragmentArray[] = { FragmentActivity0.class,
 					FragmentActivity1.class,FragmentActivity2.class,FragmentActivity3.class,FragmentActivity4.class};
