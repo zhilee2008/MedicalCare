@@ -14,10 +14,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ysqm.medicalcare.R;
+
 import cn.jpush.android.api.InstrumentedActivity;
 import cn.jpush.android.api.JPushInterface;
-
-import com.ysqm.medicalcare.R;
 
 
 public class MainActivity extends InstrumentedActivity implements OnClickListener {

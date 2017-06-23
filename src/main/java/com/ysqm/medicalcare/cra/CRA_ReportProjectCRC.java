@@ -1,8 +1,6 @@
 package com.ysqm.medicalcare.cra;
 
-import android.app.Activity;
 import android.app.Instrumentation;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -13,12 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
-import com.ysqm.medicalcare.FragmentActivity0;
-import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.R;
 
 public class CRA_ReportProjectCRC extends Fragment {

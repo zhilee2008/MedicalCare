@@ -1,26 +1,15 @@
 package com.ysqm.medicalcare.notification;
 
-import java.util.List;
-
-import com.ysqm.medicalcare.LoginActivity;
-import com.ysqm.medicalcare.MainTabLayout;
-import com.ysqm.medicalcare.R;
-import com.ysqm.medicalcare.crc.CRC_Setting;
-
-import cn.jpush.android.api.JPushInterface;
-
 import android.app.Activity;
-import android.app.ActivityManager;
-import android.app.ActivityManager.RunningAppProcessInfo;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.ysqm.medicalcare.LoginActivity;
+
+import cn.jpush.android.api.JPushInterface;
 
 public class TestActivity extends Activity {
 

@@ -1,6 +1,5 @@
 package com.ysqm.medicalcare.cralead;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -10,16 +9,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.ysqm.medicalcare.FragmentActivity0;
-import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.FragmentActivity4;
 import com.ysqm.medicalcare.LoginActivity;
 import com.ysqm.medicalcare.R;
-import com.ysqm.medicalcare.crc.CRC_ChangePWD;
-import com.ysqm.medicalcare.crc.CRC_Setting;
 
 public class CRALEAD_Setting extends Fragment {
     //	String patientId;

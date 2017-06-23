@@ -1,28 +1,18 @@
 package com.ysqm.medicalcare;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentManager.BackStackEntry;
 import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
-import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 
-import com.ysqm.medicalcare.R;
 import com.ysqm.medicalcare.cra.CRA_CurrentOrder;
-import com.ysqm.medicalcare.cra.CRA_Report;
 import com.ysqm.medicalcare.cralead.CRALEAD_CurrentOrder;
 import com.ysqm.medicalcare.crc.CRC_CurrentOrder;
 import com.ysqm.medicalcare.doctor.DOC_CurrentOrder;
 import com.ysqm.medicalcare.patient.ProjectList;
-import com.ysqm.medicalcare.patient.OrderSubmit;
-import com.ysqm.medicalcare.utils.Constants;
 
 /**
  * 功能描述：自定义TabHost

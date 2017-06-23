@@ -1,8 +1,5 @@
 package com.ysqm.medicalcare.utils;
 
-import com.ysqm.medicalcare.cra.CRA_ReportProjectMenuHospital1;
-
-
 public class Constants {
 
     public static String WSDL_SERVER_LIST = "http://103.248.103.12:8888/conf/configuration.json";

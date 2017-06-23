@@ -1,39 +1,24 @@
 package com.ysqm.medicalcare;
 
-import java.util.List;
-
-import android.app.Activity;
-import android.app.ActivityManager;
-import android.app.ActivityManager.RunningTaskInfo;
-import android.app.Instrumentation;
 import android.app.LocalActivityManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTabHost;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TabHost;
-import android.widget.Toast;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
 
+import com.ysqm.medicalcare.notification.ExampleUtil;
+
 import cn.jpush.android.api.InstrumentedActivity;
 import cn.jpush.android.api.JPushInterface;
-
-import com.ysqm.medicalcare.notification.*;
-import com.ysqm.medicalcare.R;
-import com.ysqm.medicalcare.patient.OrderSubmit;
 
 /**
  * 功能描述：自定义TabHost
@@ -130,10 +115,10 @@ public class MainTabLayout extends InstrumentedActivity {
                     R.drawable.tab_project_btn, R.drawable.tab_hospital_btn,
                     R.drawable.tab_patient_btn, R.drawable.tab_set_btn};
             // Tab选项卡的文字
-            String mTextviewArray[] = {"任务", "项目", "医院", "受试者", "设置"};
+            String mTextviewArray[] = {"任务", "项目", "受试者", "设置"};
 
             Class fragmentArray[] = {FragmentActivity0.class,
-                    FragmentActivity1.class, FragmentActivity2.class,
+                    FragmentActivity1.class,
                     FragmentActivity3.class, FragmentActivity4.class};
             initView(fragmentArray, mImageViewArray, mTextviewArray);
         } else if (userType.equals(this.CRA)) {

@@ -1,12 +1,9 @@
 package com.ysqm.medicalcare.utils;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URLEncoder;
-import java.util.HashMap;
-import java.util.Map;
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.os.StrictMode;
 
-import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -20,10 +17,58 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.annotation.SuppressLint;
-import android.os.StrictMode;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.security.KeyManagementException;
+import java.security.KeyStore;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.Certificate;
+import java.security.cert.CertificateException;
+import java.security.cert.CertificateFactory;
+import java.util.Map;
+
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManagerFactory;
 
 public class HttpConnections {
+    private static final String TYPE = "X.509";
+    private final String httpsUrl = "https://www.autobotstech.com:9443/";
+    private static final String PROTOCOL = "TLS";
+    public String runWithHttpsUrlConnection(Context context) throws CertificateException, IOException, KeyStoreException,
+            NoSuchAlgorithmException, KeyManagementException {
+        CertificateFactory cf = CertificateFactory.getInstance(TYPE);
+        InputStream in = context.getAssets().open("android.crt");
+        Certificate cartificate = cf.generateCertificate(in);
+
+        KeyStore keystore = KeyStore.getInstance(KeyStore.getDefaultType());
+        keystore.load(null, null);
+        keystore.setCertificateEntry("trust", cartificate);
+
+        TrustManagerFactory trustManagerFactory = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
+        trustManagerFactory.init(keystore);
+
+        SSLContext sslContext = SSLContext.getInstance(PROTOCOL);
+        sslContext.init(null, trustManagerFactory.getTrustManagers(), null);
+
+        URL url = new URL(httpsUrl);
+        HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
+        urlConnection.setSSLSocketFactory(sslContext.getSocketFactory());
+
+        InputStream input = urlConnection.getInputStream();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(input, "UTF-8"));
+        StringBuffer result = new StringBuffer();
+        String line = "";
+        while ((line = reader.readLine()) != null) {
+            result.append(line);
+        }
+
+        return result.toString();
+    }
 
     @SuppressLint("NewApi")
     public static JSONObject httpConnectionLoginPost(String method, Map<String, String> map) {

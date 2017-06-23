@@ -1,19 +1,8 @@
 package com.ysqm.medicalcare.patient;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.app.Instrumentation;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
@@ -33,11 +22,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.ysqm.medicalcare.FragmentActivity0;
-import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.R;
-import com.ysqm.medicalcare.crc.CRC_PatientOrderList;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class HistoryOrderList extends Fragment {
 

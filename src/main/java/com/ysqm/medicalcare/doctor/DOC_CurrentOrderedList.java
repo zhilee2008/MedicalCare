@@ -1,22 +1,9 @@
 package com.ysqm.medicalcare.doctor;
 
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.app.Instrumentation;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -25,7 +12,6 @@ import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
@@ -36,10 +22,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.ysqm.medicalcare.FragmentActivity0;
-import com.ysqm.medicalcare.LoginActivity;
 import com.ysqm.medicalcare.R;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class DOC_CurrentOrderedList extends Fragment {
     OrderedThread odth;
@@ -280,7 +274,7 @@ public class DOC_CurrentOrderedList extends Fragment {
 //      	    		Map<String, Object> map=new HashMap<String, Object>();  
 //			            map.put("image", R.drawable.white);  
 //			            map.put("title", "");  
-//			            map.put("info", "暂无预约信息");
+//			            map.put("info", "当前没有待确认的预约信息");
 //			           map.put("checkupId","");
 //			           list.add(map);
 //      	    		myAdspter=new MyAdspter(getActivity(), list);

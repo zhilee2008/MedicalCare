@@ -1,14 +1,5 @@
 package com.ysqm.medicalcare.crc;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Instrumentation;
 import android.content.DialogInterface;
@@ -18,7 +9,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
-import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,11 +20,16 @@ import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ysqm.medicalcare.FragmentActivity0;
 import com.ysqm.medicalcare.R;
-import com.ysqm.medicalcare.crc.CRC_CurrentOrdered2Confirm.OrderedThread;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class CRC_PatientCurrentConfirm2Checked extends Fragment {
     //	SharedPreferences sp;

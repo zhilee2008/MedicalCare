@@ -1,22 +1,8 @@
 package com.ysqm.medicalcare.cralead;
 
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.app.Instrumentation;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
@@ -27,13 +13,16 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.ysqm.medicalcare.FragmentActivity0;
 import com.ysqm.medicalcare.FragmentActivity1;
 import com.ysqm.medicalcare.FragmentActivity2;
 import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.R;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class CRALEAD_PatientOrderList extends Fragment {
     PatientStateThread pth;
@@ -97,7 +86,7 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity1.changeFragment(new CRALEAD_PatientCurrentOrdered2Confirm(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         } else if ("2".equals(tab)) {
@@ -108,7 +97,7 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity2.changeFragment(new CRALEAD_PatientCurrentOrdered2Confirm(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         } else if ("3".equals(tab)) {
@@ -119,12 +108,12 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity3.changeFragment(new CRALEAD_PatientCurrentOrdered2Confirm(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         }
                     } else {
-                        Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                        Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                     }
                 } catch (JSONException e) {
                     // TODO Auto-generated catch block
@@ -149,7 +138,7 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity1.changeFragment(new CRALEAD_PatientCurrentConfirm2Checked(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         } else if ("2".equals(tab)) {
@@ -160,7 +149,7 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity2.changeFragment(new CRALEAD_PatientCurrentConfirm2Checked(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         } else if ("3".equals(tab)) {
@@ -170,12 +159,12 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity3.changeFragment(new CRALEAD_PatientCurrentConfirm2Checked(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         }
                     } else {
-                        Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                        Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                     }
                 } catch (JSONException e) {
                     // TODO Auto-generated catch block
@@ -200,7 +189,7 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity1.changeFragment(new CRALEAD_PatientCurrentChecked2Complete(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         } else if ("2".equals(tab)) {
@@ -212,7 +201,7 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity2.changeFragment(new CRALEAD_PatientCurrentChecked2Complete(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         } else if ("3".equals(tab)) {
@@ -222,12 +211,12 @@ public class CRALEAD_PatientOrderList extends Fragment {
                                     FragmentActivity3.changeFragment(new CRALEAD_PatientCurrentChecked2Complete(currentCheckupId, patientId));
                                 }
                             } else {
-                                Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                                Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                             }
 
                         }
                     } else {
-                        Toast.makeText(v.getContext(), "暂无预约信息", 5).show();
+                        Toast.makeText(v.getContext(), "当前没有待确认的预约信息", 5).show();
                     }
                 } catch (JSONException e) {
                     // TODO Auto-generated catch block

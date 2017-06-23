@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.ysqm.medicalcare.R;
+
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -20,9 +22,6 @@ import cn.jpush.android.api.BasicPushNotificationBuilder;
 import cn.jpush.android.api.CustomPushNotificationBuilder;
 import cn.jpush.android.api.InstrumentedActivity;
 import cn.jpush.android.api.JPushInterface;
-
-import com.ysqm.medicalcare.R;
-
 import cn.jpush.android.api.TagAliasCallback;
 
 

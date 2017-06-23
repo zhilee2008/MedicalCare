@@ -1,13 +1,5 @@
 package com.ysqm.medicalcare.cralead;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.app.Instrumentation;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -23,15 +15,20 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.SimpleAdapter;
 
-import com.ysqm.medicalcare.FragmentActivity0;
 import com.ysqm.medicalcare.FragmentActivity1;
 import com.ysqm.medicalcare.FragmentActivity2;
 import com.ysqm.medicalcare.R;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class CRALEAD_PatientGroup extends Fragment {
     private LinearLayout view;

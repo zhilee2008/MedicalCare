@@ -1,8 +1,6 @@
 package com.ysqm.medicalcare.cralead;
 
-import android.app.Activity;
 import android.app.Instrumentation;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
@@ -12,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.ysqm.medicalcare.FragmentActivity0;
 import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.R;
 

@@ -1,16 +1,6 @@
 package com.ysqm.medicalcare.doctor;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.app.Instrumentation;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -21,19 +11,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ysqm.medicalcare.FragmentActivity0;
-import com.ysqm.medicalcare.FragmentActivity2;
-import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.FragmentActivity4;
 import com.ysqm.medicalcare.R;
-import com.ysqm.medicalcare.crc.CRC_Setting;
-import com.ysqm.medicalcare.patient.ChangePWD;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class DOC_ChangePWD extends Fragment {
     //	String patientId;
@@ -112,7 +103,6 @@ public class DOC_ChangePWD extends Fragment {
                     e.printStackTrace();
                 }
 
-                //FragmentActivity2.changeFragment(new ChangePWD());
             }
         });
         return view;

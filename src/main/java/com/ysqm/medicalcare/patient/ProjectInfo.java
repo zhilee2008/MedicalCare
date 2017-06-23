@@ -1,18 +1,14 @@
 package com.ysqm.medicalcare.patient;
 
-import android.app.Activity;
 import android.app.Instrumentation;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.ysqm.medicalcare.FragmentActivity0;
 import com.ysqm.medicalcare.R;

@@ -10,10 +10,10 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.ysqm.medicalcare.LoginActivity;
+
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import com.ysqm.medicalcare.LoginActivity;
 
 import java.util.Iterator;
 

@@ -1,19 +1,5 @@
 package com.ysqm.medicalcare;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import cn.jpush.android.api.JPushInterface;
-
-import com.ysqm.medicalcare.utils.Constants;
-import com.ysqm.medicalcare.utils.HttpConnections;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -24,13 +10,22 @@ import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.ysqm.medicalcare.utils.Constants;
+import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import cn.jpush.android.api.JPushInterface;
 
 /**
  * Activity which displays a login screen to the user, offering registration as

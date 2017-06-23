@@ -1,16 +1,6 @@
 package com.ysqm.medicalcare.doctor;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.app.Instrumentation;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -22,17 +12,20 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ysqm.medicalcare.FragmentActivity0;
-import com.ysqm.medicalcare.FragmentActivity2;
-import com.ysqm.medicalcare.FragmentActivity3;
 import com.ysqm.medicalcare.R;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class DOC_ADDPatient extends Fragment {
     //	String patientId;
@@ -77,43 +70,6 @@ public class DOC_ADDPatient extends Fragment {
 
             }
         });
-
-        spinnerP = (Spinner) view.findViewById(R.id.spinner1);
-        //数据
-        data_listP = new ArrayList<String>();
-        data_listP.add("项目1");
-        data_listP.add("项目2");
-        //适配器
-        arr_adapterP = new ArrayAdapter<String>(DOC_ADDPatient.this.getActivity(), android.R.layout.simple_spinner_item, data_listP);
-        //设置样式
-        arr_adapterP.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        //加载适配器
-        spinnerP.setAdapter(arr_adapterP);
-
-        spinnerH = (Spinner) view.findViewById(R.id.spinner2);
-        //数据
-        data_listH = new ArrayList<String>();
-        data_listH.add("医院1");
-        data_listH.add("医院2");
-        //适配器
-        arr_adapterH = new ArrayAdapter<String>(DOC_ADDPatient.this.getActivity(), android.R.layout.simple_spinner_item, data_listH);
-        //设置样式
-        arr_adapterH.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        //加载适配器
-        spinnerH.setAdapter(arr_adapterH);
-
-
-        spinnerC = (Spinner) view.findViewById(R.id.spinner3);
-        //数据
-        data_listC = new ArrayList<String>();
-        data_listC.add("医生1");
-        data_listC.add("医生2");
-        //适配器
-        arr_adapterC = new ArrayAdapter<String>(DOC_ADDPatient.this.getActivity(), android.R.layout.simple_spinner_item, data_listC);
-        //设置样式
-        arr_adapterC.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        //加载适配器
-        spinnerC.setAdapter(arr_adapterC);
 
 
         Button tv = (Button) view.findViewById(R.id.confirmchangepwd);

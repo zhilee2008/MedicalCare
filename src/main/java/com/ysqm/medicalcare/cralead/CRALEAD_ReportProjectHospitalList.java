@@ -2,15 +2,12 @@ package com.ysqm.medicalcare.cralead;
 
 import android.app.Instrumentation;
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,24 +17,17 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
-import com.ysqm.medicalcare.FragmentActivity0;
-import com.ysqm.medicalcare.FragmentActivity1;
-import com.ysqm.medicalcare.FragmentActivity2;
 import com.ysqm.medicalcare.FragmentActivity3;
-import com.ysqm.medicalcare.LoginActivity;
-import com.ysqm.medicalcare.MainTabLayout;
 import com.ysqm.medicalcare.R;
-import com.ysqm.medicalcare.patient.ProjectList;
 import com.ysqm.medicalcare.utils.Constants;
 import com.ysqm.medicalcare.utils.HttpConnections;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class CRALEAD_ReportProjectHospitalList extends Fragment {
     private View view;
