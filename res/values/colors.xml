@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="colorGray">#fff9f9f9</color>
+    <color name="red">#FF3333</color>
+    <color name="disable">#EBEAD8</color>
+    <color name="backGroundColor">#efeff4</color>
+    <color name="listItemBGColor">#efeff4</color>
+    <color name="titlebarbg">#ffffff</color>
+    
+    
+</resources>
