@@ -1,0 +1,19 @@
+#Fri Jun 23 14:00:04 CST 2017
+renamed.5=classes4.dex
+renamed.4=classes.dex
+renamed.3=classes3.dex
+renamed.2=classes6.dex
+renamed.1=classes2.dex
+renamed.0=classes5.dex
+base.5=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.5_703223c138335bf5f5a96f33f6af6a6b1d377745
+base.4=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/10/classes_651e6d214a82cd9de0ca741266e469eb736f2e5f
+base.3=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_f0cc3e08df78973d012f5dea19f49d4e041ba1ef
+base.2=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/2/jpush-android-2.1.5_40670bfa76e3bd558dd6f153c8090102dce628c3
+base.1=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_4ab34197afd4d914ea894199be434a3bb411a0ca
+base.0=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.1_c8ccbda9ddaf79b141570f9498a8fc9c3672d1ae
+file.5=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.5_703223c138335bf5f5a96f33f6af6a6b1d377745/classes.dex
+file.4=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/10/classes_651e6d214a82cd9de0ca741266e469eb736f2e5f/classes.dex
+file.3=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_f0cc3e08df78973d012f5dea19f49d4e041ba1ef/classes.dex
+file.2=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/2/jpush-android-2.1.5_40670bfa76e3bd558dd6f153c8090102dce628c3/classes.dex
+file.1=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_4ab34197afd4d914ea894199be434a3bb411a0ca/classes.dex
+file.0=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.1_c8ccbda9ddaf79b141570f9498a8fc9c3672d1ae/classes.dex

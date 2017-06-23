@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/drawable-hdpi-v4/lock.jpg",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/drawable-hdpi/lock.jpg"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_home_btn.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/drawable-hdpi/tab_home_btn.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/drawable-hdpi-v4/click_bg_gray.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/drawable-hdpi/click_bg_gray.xml"
+    }
+]

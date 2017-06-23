@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/home_btn_bg"
+        android:textColor="@color/colorGray">
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dip"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="  &lt; 返回"
+            android:textColor="@color/colorGray"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textColor="@color/colorGray"
+            android:layout_marginLeft="50dip"
+            android:text="当前预约"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:id="@+id/crc_currentconfirmcontainer"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="预约名称" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/planname"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="患者名称" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/crc_patient"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="预约时间" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/crc_ordertimetext"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="预约地点" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/crc_orderaddress"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="主治医师" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/crc_orderdoctor"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="13838383838" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="预约联系人" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/crc_ordercontact"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="患者电话" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/crc_orderphone"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="44.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="待查项目" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/crcorderMentionList">
+
+
+            </TableLayout>
+
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="44.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="注意事项" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/crc_ordermentioncontainer"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/crc_ordermention"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text=" " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="44.0dip">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="备注与提醒" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:width="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="90.0dip">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/crc_ordercomment"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,785 @@
+[
+    {
+        "outputFile": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 270,
+                        "endColumn": 49,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 39,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 39,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 45,
+                    "endOffset": 186
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 45,
+                        "endOffset": 182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 191,
+                    "endColumn": 41,
+                    "endOffset": 228
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endColumn": 41,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 233,
+                    "endColumn": 49,
+                    "endOffset": 278
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endColumn": 49,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 283,
+                    "endColumn": 37,
+                    "endOffset": 316
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 37,
+                        "endOffset": 221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 321,
+                    "endColumn": 44,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 44,
+                        "endOffset": 412
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endColumn": 41,
+                    "endOffset": 403
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 41,
+                        "endOffset": 94
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 408,
+                    "endColumn": 55,
+                    "endOffset": 459
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 55,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 464,
+                    "endColumn": 61,
+                    "endOffset": 521
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 61,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 526,
+                    "endColumn": 51,
+                    "endOffset": 573
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 272,
+                        "endColumn": 51,
+                        "endOffset": 319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 578,
+                    "endColumn": 57,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 194,
+                        "endColumn": 57,
+                        "endOffset": 247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 48,
+                    "endOffset": 680
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 48,
+                        "endOffset": 63
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 685,
+                    "endColumn": 55,
+                    "endOffset": 736
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 359,
+                        "endColumn": 55,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 741,
+                    "endColumn": 59,
+                    "endOffset": 796
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 618,
+                        "endColumn": 59,
+                        "endOffset": 673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 801,
+                    "endColumn": 57,
+                    "endOffset": 854
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 559,
+                        "endColumn": 57,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 859,
+                    "endColumn": 53,
+                    "endOffset": 908
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 53,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 913,
+                    "endColumn": 55,
+                    "endOffset": 964
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 502,
+                        "endColumn": 55,
+                        "endOffset": 553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 969,
+                    "endColumn": 61,
+                    "endOffset": 1026
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endColumn": 61,
+                        "endOffset": 579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1031,
+                    "endColumn": 55,
+                    "endOffset": 1082
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 302,
+                        "endColumn": 55,
+                        "endOffset": 353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1087,
+                    "endColumn": 51,
+                    "endOffset": 1134
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 416,
+                        "endColumn": 51,
+                        "endOffset": 463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1139,
+                    "endColumn": 51,
+                    "endOffset": 1186
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 469,
+                        "endColumn": 51,
+                        "endOffset": 516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1191,
+                    "endColumn": 53,
+                    "endOffset": 1240
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 71,
+                        "endColumn": 53,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1245,
+                    "endColumn": 57,
+                    "endOffset": 1298
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 382,
+                        "endColumn": 63,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1303,
+                    "endColumn": 52,
+                    "endOffset": 1351
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 585,
+                        "endColumn": 52,
+                        "endOffset": 633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1356,
+                    "endColumn": 44,
+                    "endOffset": 1396
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 44,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1401,
+                    "endColumn": 46,
+                    "endOffset": 1443
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 46,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1448,
+                    "endColumn": 43,
+                    "endOffset": 1487
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 639,
+                        "endColumn": 43,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1492,
+                    "endColumn": 47,
+                    "endOffset": 1535
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endColumn": 47,
+                        "endOffset": 296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1540,
+                    "endColumn": 66,
+                    "endOffset": 1602
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 126,
+                        "endColumn": 66,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1607,
+                    "endColumn": 53,
+                    "endOffset": 1656
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/strings_activity_login.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 53,
+                        "endOffset": 68
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1661,
+                    "endLine": 40,
+                    "endColumn": 12,
+                    "endOffset": 1948
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 285,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1953,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 2162
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 610,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2167,
+                    "endLine": 49,
+                    "endColumn": 12,
+                    "endOffset": 2387
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 825,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2392,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 2628
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1052,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2633,
+                    "endLine": 64,
+                    "endColumn": 12,
+                    "endOffset": 3196
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/jpush_style.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3201,
+                    "endLine": 67,
+                    "endColumn": 12,
+                    "endOffset": 3345
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1315,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 1459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 3350,
+                    "endLine": 71,
+                    "endColumn": 12,
+                    "endOffset": 3498
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1821,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 1969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 3503,
+                    "endLine": 76,
+                    "endColumn": 12,
+                    "endOffset": 3704
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1614,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 1815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 3709,
+                    "endLine": 80,
+                    "endColumn": 12,
+                    "endOffset": 3853
+                },
+                "from": {
+                    "file": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 1975,
+                        "endLine": 58,
+                        "endColumn": 12,
+                        "endOffset": 2119
+                    }
+                }
+            }
+        ]
+    }
+]
