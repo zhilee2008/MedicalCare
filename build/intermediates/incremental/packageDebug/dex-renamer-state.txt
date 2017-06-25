@@ -1,4 +1,4 @@
-#Sat Jun 24 14:30:55 CST 2017
+#Sun Jun 25 14:02:06 CST 2017
 base.0=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e6db8aea32da870372d70cd12d8328cf679274a2
 renamed.1=classes2.dex
 renamed.0=classes.dex

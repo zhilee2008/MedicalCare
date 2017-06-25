@@ -2,35 +2,44 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1498285851393"
+    timestamp="1498371504483"
     token="3878005954674933588"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1259" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="258" />
+        duration="0" />
     <task
         name="verifier"
-        duration="31" />
+        duration="0" />
 
     <artifact
+        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
         location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
         location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -39,12 +48,21 @@
         location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/outputs/apk/MedicalCare-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1498222703525"
+        timestamp="1498371504483"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -78,37 +96,6 @@
             type="SPLIT" />
         <artifact
             location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/outputs/apk/MedicalCare-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1498225115582"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1498285851393"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/outputs/apk/MedicalCare-debug.apk"

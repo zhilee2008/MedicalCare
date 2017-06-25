@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/drawable-xhdpi/ic_playlist_play_black_24dp.png",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/generated/res/pngs/release/drawable-xhdpi/ic_playlist_play_black_24dp.png"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

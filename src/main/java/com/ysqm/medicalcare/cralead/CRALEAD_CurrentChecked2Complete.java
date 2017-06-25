@@ -37,7 +37,6 @@ public class CRALEAD_CurrentChecked2Complete extends Fragment {
     JSONArray checkitem = null;
 
     public CRALEAD_CurrentChecked2Complete(String checkupId) {
-        // TODO Auto-generated constructor stub
         this.checkupId = checkupId;
     }
 
@@ -101,7 +100,7 @@ public class CRALEAD_CurrentChecked2Complete extends Fragment {
                 if (checkitem.length() > 0) {
                     for (int i = 0; i < checkitem.length(); i++) {
                         LinearLayout lla = new LinearLayout(view.getContext());
-                        lla.setOrientation(0);
+                        lla.setOrientation(LinearLayout.HORIZONTAL);
                         try {
                             TextView textView = new TextView(view.getContext());
                             textView.setText((checkitem.getJSONObject(i).getString("name")).toString());
@@ -126,7 +125,7 @@ public class CRALEAD_CurrentChecked2Complete extends Fragment {
                     }
                 } else {
                     LinearLayout lla = new LinearLayout(view.getContext());
-                    lla.setOrientation(0);
+                    lla.setOrientation(LinearLayout.HORIZONTAL);
                     TextView textView = new TextView(view.getContext());
                     textView.setText("无");
                     lla.addView(textView);

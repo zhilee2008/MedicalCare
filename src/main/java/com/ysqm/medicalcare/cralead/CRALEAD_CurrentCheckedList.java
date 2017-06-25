@@ -260,20 +260,5 @@ public class CRALEAD_CurrentCheckedList extends Fragment {
         }
     }
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_current_order);
-////        LinearLayout myorderbutton = (LinearLayout) findViewById(R.id.myordbutton);
-////        myorderbutton.setOnClickListener(new View.OnClickListener() {
-////            @Override
-////            public void onClick(View arg0) {
-////                Intent intent = new Intent();
-////                intent.setClass(CurrentOrder.this,MyorderList.class);
-////                CurrentOrder.this.startActivity(intent);
-////                CurrentOrder.this.finish();
-////            }
-////        });
-//
-//    }
+
 }

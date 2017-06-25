@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/home_btn_bg"
+        android:textColor="@color/colorGray">
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dip"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="  &lt; 返回"
+            android:textColor="@color/colorGray"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textColor="@color/colorGray"
+            android:layout_marginLeft="50dip"
+            android:text="状态分组"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_playlist_play_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:text="医院 > "
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:text="项目 > "
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:text="状态分组"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/crccurrentordreqbutton"
+                android:background="@color/listItemBGColor"
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_width="30dip"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/statusred" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="紧急" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:layout_gravity="center"
+                    android:paddingRight="30.0dip"
+                    android:paddingLeft="30.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <GridView
+                        android:id="@+id/GridViewPatient_red"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numColumns="auto_fit"
+                        android:horizontalSpacing="10dp"
+                        android:verticalSpacing="10dp"
+                        android:columnWidth="40dp"
+                        android:stretchMode="columnWidth"
+                        android:gravity="center"></GridView>
+
+                    <LinearLayout
+                        android:background="@color/listItemBGColor"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_width="30dip"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dip"
+                            android:background="@drawable/statusred"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@color/listItemBGColor"
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_width="30dip"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/statusyellow"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="预警" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:layout_gravity="center"
+                    android:paddingRight="30.0dip"
+                    android:paddingLeft="30.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <GridView
+                        android:id="@+id/GridViewPatient_yellow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numColumns="auto_fit"
+                        android:horizontalSpacing="10dp"
+                        android:verticalSpacing="10dp"
+                        android:columnWidth="40dp"
+                        android:stretchMode="columnWidth"
+                        android:gravity="center"></GridView>
+
+                    <LinearLayout
+                        android:layout_width="20dip"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:background="@color/listItemBGColor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="10dip"
+                            android:layout_height="10dp"
+                            android:background="@drawable/statusyellow"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@color/listItemBGColor"
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_width="30dip"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/statusgreen"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="正常" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:layout_gravity="center"
+                    android:paddingRight="30.0dip"
+                    android:paddingLeft="30.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <GridView
+                        android:id="@+id/GridViewPatient_green"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numColumns="auto_fit"
+                        android:horizontalSpacing="10dp"
+                        android:verticalSpacing="10dp"
+                        android:columnWidth="40dp"
+                        android:stretchMode="columnWidth"
+                        android:gravity="center"></GridView>
+
+                    <LinearLayout
+                        android:background="@color/listItemBGColor"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_width="30dip"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:background="@drawable/statusgreen"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@color/listItemBGColor"
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_width="30dip"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/statusblue"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="风险" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:layout_gravity="center"
+                    android:paddingRight="30.0dip"
+                    android:paddingLeft="30.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <GridView
+                        android:id="@+id/GridViewPatient_purple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numColumns="auto_fit"
+                        android:horizontalSpacing="10dp"
+                        android:verticalSpacing="10dp"
+                        android:columnWidth="40dp"
+                        android:stretchMode="columnWidth"
+                        android:gravity="center"></GridView>
+
+                    <LinearLayout
+                        android:background="@color/listItemBGColor"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_width="30dip"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:background="@drawable/statusblue"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@color/listItemBGColor"
+                android:layout_gravity="center"
+                android:paddingRight="30.0dip"
+                android:paddingLeft="30.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_width="30dip"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/statusgray"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="终止" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/listItemBGColor"
+                    android:layout_gravity="center"
+                    android:paddingRight="30.0dip"
+                    android:paddingLeft="30.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <GridView
+                        android:id="@+id/GridViewPatient_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numColumns="auto_fit"
+                        android:horizontalSpacing="10dp"
+                        android:verticalSpacing="10dp"
+                        android:columnWidth="40dp"
+                        android:stretchMode="columnWidth"
+                        android:gravity="center"></GridView>
+
+                    <LinearLayout
+                        android:background="@color/listItemBGColor"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_width="30dip"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:background="@drawable/statusgray"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="aaa" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ffeaeaea"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

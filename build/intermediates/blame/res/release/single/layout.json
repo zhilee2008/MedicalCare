@@ -1,0 +1,374 @@
+[
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_historyorder_detail.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_historyorder_detail.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_hospital_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_hospital_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_historyorder_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_historyorder_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/titlebar.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/titlebar.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_project_all2.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_project_all2.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/main_tab_layout.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/main_tab_layout.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_login.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_setting.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_setting.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_confirm_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_confirm_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_order_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_order_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cralead_activity_report_cra_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cralead_activity_report_cra_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_order_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_order_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_history_complete.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_history_complete.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_order_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_order_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_project_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_project_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_patientgroup_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_patientgroup_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_project_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_project_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_project_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_project_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_ordered_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_ordered_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/jpush_popwin_layout.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_hospital_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_hospital_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/jpush_webview_layout.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/jpush_webview_layout.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_history_complete_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_history_complete_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_current_confirm_complete.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_current_confirm_complete.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_project_all3.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_project_all3.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_historyorder_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_historyorder_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_allpatient_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_allpatient_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_confirm_complete.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_confirm_complete.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_project_hospital.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_project_hospital.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/timepicker.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/timepicker.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_crc_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_crc_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_history_complete.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_history_complete.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_allpatient_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_allpatient_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_contact.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_contact.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_history_complete_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_history_complete_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_project_crc.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_project_crc.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_project_all1.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_project_all1.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_crcmenu_crc.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_crcmenu_crc.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_confirm_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_confirm_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/tab_item_view.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/tab_item_view.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/main.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_projectmenu.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_projectmenu.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_followplan_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_followplan_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_setting.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_current_order.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_current_order.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_patient.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_patient.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_message_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_message_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_changepwd.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_changepwd.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/fragment_activity_3.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/fragment_activity_3.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_hospital_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_hospital_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_followplan_detail.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_followplan_detail.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/customer_notitfication_layout_one.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/customer_notitfication_layout_one.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_current_ordered_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_current_ordered_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_followplan_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_followplan_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_patient_order_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_patient_order_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_projectmenu_hospital.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_projectmenu_hospital.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_allpatient_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_allpatient_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_project_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_project_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_current_confirm_checked.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_current_confirm_checked.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_confirm_checked.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_confirm_checked.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_ordered_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_ordered_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_current_ordered_confirm.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_current_ordered_confirm.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/fragment_activity_2.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/fragment_activity_2.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_projectmenu_crc.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_projectmenu_crc.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_report_projectmenu_all.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_projectmenu_all.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_order_submit.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_order_submit.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_patientgroup_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_patientgroup_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_hospital_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_hospital_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_message_detail.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_message_detail.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_project_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_project_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_hospital_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_hospital_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_project_info.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_project_info.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/set_push_time.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/set_push_time.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_ordered_confirm.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_ordered_confirm.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/activity_message_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_message_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/fragment_activity_1.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/fragment_activity_1.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_setting.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_setting.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/fragment_acitivity_0.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/fragment_acitivity_0.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/customer_notitfication_layout.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/customer_notitfication_layout.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_current_confirm_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_current_confirm_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_addpatient.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_addpatient.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_current_checked_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_checked_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cra_activity_project_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_project_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_patientgroup_order_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_patientgroup_order_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_allpatient_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_allpatient_list.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_project_list_items.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_project_list_items.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/fragment_activity_4.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/fragment_activity_4.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/cralead_activity_report.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cralead_activity_report.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/doc_activity_setting.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/doc_activity_setting.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_changepwd.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_changepwd.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/push_set_dialog.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/push_set_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/release/layout/crc_activity_complete.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_complete.xml"
+    }
+]

@@ -1,0 +1,389 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:2:1-221:12
+	package
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.4.0] /Users/zhi/.android/build-cache/c0589f8674b16bf9cd8de57b89c62d11cbe56473/output/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:11:22-78
+permission#com.ysqm.medicalcare.permission.JPUSH_MESSAGE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:12:5-14:47
+	android:protectionLevel
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:14:9-44
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:13:9-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:16:22-66
+uses-permission#com.ysqm.medicalcare.permission.JPUSH_MESSAGE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:19:5-85
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:19:22-82
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:20:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:21:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:23:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:25:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:26:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:27:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:28:5-84
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:28:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:29:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:30:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:31:5-78
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:31:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:33:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:35:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:36:5-89
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:36:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:37:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:39:5-68
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:39:22-65
+application
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:41:5-219:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/zhi/.android/build-cache/c0589f8674b16bf9cd8de57b89c62d11cbe56473/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:45:9-41
+	android:allowBackup
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:42:9-35
+	android:icon
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:43:9-45
+	android:theme
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:44:9-40
+activity#com.ysqm.medicalcare.notification.PushSetActivity
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:57:9-59:57
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:58:13-77
+activity#com.ysqm.medicalcare.notification.SettingActivity
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:61:9-63:57
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:62:13-77
+activity#com.ysqm.medicalcare.notification.TestActivity
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:65:9-72:20
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:66:13-74
+intent-filter#jpush.testAction+jpush.testCategory
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:68:13-71:29
+action#jpush.testAction
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:69:17-59
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:69:25-56
+category#jpush.testCategory
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:70:17-63
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:70:27-60
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:75:9-78:49
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:78:13-37
+	android:theme
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:76:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:81:9-92:20
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:85:13-37
+	android:configChanges
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:83:13-63
+	android:theme
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:84:13-60
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:82:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.ysqm.medicalcare
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:86:13-91:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:87:17-75
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:87:25-72
+category#android.intent.category.DEFAULT
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:89:17-76
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:89:27-73
+category#com.ysqm.medicalcare
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:90:17-65
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:90:27-62
+service#cn.jpush.android.service.DownloadService
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:94:9-97:48
+	android:enabled
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:96:13-35
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:95:13-68
+service#cn.jpush.android.service.PushService
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:102:9-112:19
+	android:enabled
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:104:13-35
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:105:13-37
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:103:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:106:13-111:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:107:17-75
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:107:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:108:17-73
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:108:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:109:17-78
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:109:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:110:17-76
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:110:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:116:9-125:19
+	android:enabled
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:118:13-35
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:119:13-36
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:117:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.ysqm.medicalcare
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:120:13-123:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:121:17-80
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:121:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:128:9-148:20
+	android:enabled
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:130:13-35
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:129:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.ysqm.medicalcare
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:132:13-135:29
+	android:priority
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:132:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:133:17-94
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:133:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:136:13-139:29
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:137:17-77
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:137:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:138:17-79
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:138:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:141:13-146:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:142:17-78
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:142:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:143:17-80
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:143:25-77
+data
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:145:17-50
+	android:scheme
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:145:23-47
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:151:9-153:40
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:153:13-37
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:152:13-66
+receiver#com.ysqm.medicalcare.notification.MyReceiver
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:156:9-170:20
+	android:enabled
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:159:13-35
+	android:exported
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:158:13-37
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:157:13-72
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.ysqm.medicalcare
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:160:13-169:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:161:17-79
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:161:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:162:17-81
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:162:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:163:17-83
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:163:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:164:17-88
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:164:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:165:17-86
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:165:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:166:17-91
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:166:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:167:17-77
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:167:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:174:9-176:49
+	android:value
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:176:13-46
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:175:13-41
+meta-data#JPUSH_APPKEY
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:177:9-179:56
+	android:value
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:179:13-53
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:178:13-40
+activity#com.ysqm.medicalcare.LoginActivity
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:182:9-190:20
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:185:13-57
+	android:theme
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:184:13-60
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:183:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:186:13-189:29
+action#android.intent.action.MAIN
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:187:17-69
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:187:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:188:17-77
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:188:27-74
+activity#com.ysqm.medicalcare.MainTabLayout
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:191:9-202:20
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:193:13-57
+	android:theme
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:195:13-60
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:192:13-42
+activity#com.ysqm.medicalcare.FragmentActivity0
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:203:9-205:58
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:205:13-46
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:204:13-46
+activity#com.ysqm.medicalcare.FragmentActivity1
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:206:9-208:58
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:208:13-46
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:207:13-46
+activity#com.ysqm.medicalcare.FragmentActivity2
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:209:9-211:58
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:211:13-46
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:210:13-46
+activity#com.ysqm.medicalcare.FragmentActivity3
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:212:9-214:58
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:214:13-46
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:213:13-46
+activity#com.ysqm.medicalcare.FragmentActivity4
+ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:215:9-217:58
+	android:label
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:217:13-46
+	android:name
+		ADDED from /Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/AndroidManifest.xml:216:13-46
