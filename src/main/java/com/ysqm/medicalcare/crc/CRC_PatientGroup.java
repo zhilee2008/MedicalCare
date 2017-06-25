@@ -102,9 +102,9 @@ public class CRC_PatientGroup extends Fragment {
                                                 public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
                                                     String patientId = meumList_red.get(arg2).get("patientId").toString();
                                                     if ("1".equals(tab)) {
-                                                        FragmentActivity1.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                        FragmentActivity1.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                     } else {
-                                                        FragmentActivity2.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                        FragmentActivity2.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                     }
                                                 }
                                             }
@@ -114,9 +114,9 @@ public class CRC_PatientGroup extends Fragment {
                                                    public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
                                                        String patientId = meumList_yellow.get(arg2).get("patientId").toString();
                                                        if ("1".equals(tab)) {
-                                                           FragmentActivity1.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                           FragmentActivity1.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                        } else {
-                                                           FragmentActivity2.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                           FragmentActivity2.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                        }
                                                    }
                                                }
@@ -126,9 +126,9 @@ public class CRC_PatientGroup extends Fragment {
                                                   public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
                                                       String patientId = meumList_green.get(arg2).get("patientId").toString();
                                                       if ("1".equals(tab)) {
-                                                          FragmentActivity1.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                          FragmentActivity1.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                       } else {
-                                                          FragmentActivity2.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                          FragmentActivity2.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                       }
                                                   }
                                               }
@@ -138,9 +138,9 @@ public class CRC_PatientGroup extends Fragment {
                                                    public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
                                                        String patientId = meumList_purple.get(arg2).get("patientId").toString();
                                                        if ("1".equals(tab)) {
-                                                           FragmentActivity1.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                           FragmentActivity1.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                        } else {
-                                                           FragmentActivity2.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                           FragmentActivity2.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                        }
                                                    }
                                                }
@@ -150,9 +150,9 @@ public class CRC_PatientGroup extends Fragment {
                                                  public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
                                                      String patientId = meumList_gray.get(arg2).get("patientId").toString();
                                                      if ("1".equals(tab)) {
-                                                         FragmentActivity1.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                         FragmentActivity1.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                      } else {
-                                                         FragmentActivity2.changeFragment(new CRC_PatientOrderList(tab, patientId));
+                                                         FragmentActivity2.changeFragment(new CRC_PatientOrderGroupList(tab, patientId));
                                                      }
                                                  }
                                              }

@@ -24,13 +24,7 @@ public class CRC_CurrentOrder extends Fragment {
         ctv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//		        View titlebar = inflater.inflate(R.layout.titlebar, container, false);
-//				TextView b = (TextView) titlebar.findViewById(R.id.titletext);
-//				System.out.println(b.getText().toString()+"+++++++++++");
-//				b.setTextColor(R.color.black);
-//				b.setText("aaaaaaaaaaaaa");
-//				b.setVisibility(4);
-//				Toast.makeText(getActivity(), b.getText(), 5);
+
                 FragmentActivity0.changeFragment(new CRC_CurrentOrderedList());
             }
         });
@@ -61,20 +55,5 @@ public class CRC_CurrentOrder extends Fragment {
         return v;
     }
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_current_order);
-////        LinearLayout myorderbutton = (LinearLayout) findViewById(R.id.myordbutton);
-////        myorderbutton.setOnClickListener(new View.OnClickListener() {
-////            @Override
-////            public void onClick(View arg0) {
-////                Intent intent = new Intent();
-////                intent.setClass(CurrentOrder.this,MyorderList.class);
-////                CurrentOrder.this.startActivity(intent);
-////                CurrentOrder.this.finish();
-////            }
-////        });
-//
-//    }
+
 }

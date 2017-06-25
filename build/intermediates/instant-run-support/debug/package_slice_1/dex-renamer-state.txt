@@ -1,4 +1,4 @@
-#Fri Jun 23 21:07:37 CST 2017
+#Sat Jun 24 14:30:55 CST 2017
 base.0=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
 renamed.0=classes.dex
 file.0=/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex

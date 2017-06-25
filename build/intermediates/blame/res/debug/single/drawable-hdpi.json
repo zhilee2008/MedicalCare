@@ -60,6 +60,10 @@
         "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/drawable-hdpi/icon_selfinfo_sel.png"
     },
     {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/drawable-hdpi/ic_playlist_play_black_24dp.png",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/generated/res/pngs/debug/drawable-hdpi/ic_playlist_play_black_24dp.png"
+    },
+    {
         "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/drawable-hdpi/icon_meassage_sel.png",
         "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/drawable-hdpi/icon_meassage_sel.png"
     },

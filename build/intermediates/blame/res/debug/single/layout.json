@@ -32,6 +32,10 @@
         "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_report_project_all1.xml"
     },
     {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/crc_activity_patientgroup_order_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_patientgroup_order_list.xml"
+    },
+    {
         "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/cra_activity_setting.xml",
         "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/cra_activity_setting.xml"
     },
@@ -82,10 +86,6 @@
     {
         "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/jpush_popwin_layout.xml",
         "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/jpush_popwin_layout.xml"
-    },
-    {
-        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/crc_activity_addpatient_activity.xml",
-        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_addpatient_activity.xml"
     },
     {
         "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/cra_activity_hospital_list_items.xml",
@@ -294,6 +294,10 @@
     {
         "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/activity_setting.xml",
         "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/crc_activity_current_checked_list.xml",
+        "source": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/src/main/res/layout/crc_activity_current_checked_list.xml"
     },
     {
         "merged": "/Users/zhi/Documents/others/android/androidworkspace/MyApplication/MedicalCare/build/intermediates/res/merged/debug/layout/activity_current_order.xml",

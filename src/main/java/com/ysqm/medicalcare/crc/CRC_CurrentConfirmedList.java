@@ -88,17 +88,7 @@ public class CRC_CurrentConfirmedList extends Fragment {
         return v;
     }
 
-//	public List<Map<String, Object>> getData(){
-//        List<Map<String, Object>> list=new ArrayList<Map<String,Object>>();  
-//        for (int i = 0; i < 50; i++) {
-//            Map<String, Object> map=new HashMap<String, Object>();  
-//            map.put("image", R.drawable.ic_launcher);  
-//            map.put("title", "申请标题"+i);  
-//            map.put("info", "申请时间"+i);
-//            list.add(map);  
-//        }  
-//        return list;  
-//    }  
+
 
     class MyAdspter extends BaseAdapter implements ListAdapter {
 
@@ -260,20 +250,4 @@ public class CRC_CurrentConfirmedList extends Fragment {
         }
     }
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_current_order);
-////        LinearLayout myorderbutton = (LinearLayout) findViewById(R.id.myordbutton);
-////        myorderbutton.setOnClickListener(new View.OnClickListener() {
-////            @Override
-////            public void onClick(View arg0) {
-////                Intent intent = new Intent();
-////                intent.setClass(CurrentOrder.this,MyorderList.class);
-////                CurrentOrder.this.startActivity(intent);
-////                CurrentOrder.this.finish();
-////            }
-////        });
-//
-//    }
 }
